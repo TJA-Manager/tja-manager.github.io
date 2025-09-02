@@ -1,15 +1,17 @@
+/* Setup */
 @font-face {
    font-family: MochiyPopOne;
    src: url(fonts/MochiyPopOne-Regular.ttf);
 }
 
 body {
-    color: white;
-    background-color: #0f0f0f;
     font-family: MochiyPopOne;
     font-size: 14px;
+    color: white;
+    background-color: #0f0f0f;
 }
 
+/* Text and hr */
 h1, h2, h3, h4, h5, h6 {color: #e6722b;}
 
 a {
@@ -26,6 +28,14 @@ hr {
     margin: 16px 0px;
 }
 
+/* Classes */
+.page-content {margin: 0px 80px;}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
 .card {
     border-style: solid;
     border-color: #1f1f1f;
@@ -38,4 +48,10 @@ hr {
     text-align: center;
     margin: auto;
     display: block
+}
+
+.full {
+    position: static;
+    width: 100%;
+    background-color: rgb(158, 158, 158);
 }
