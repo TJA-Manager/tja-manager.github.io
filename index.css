@@ -1,0 +1,9 @@
+@font-face {
+   font-family: MochiyPopOne;
+   src: url(fonts/MochiyPopOne-Regular.ttf);
+}
+
+body {
+    font-family: MochiyPopOne;
+    font-size: 14px;
+}
