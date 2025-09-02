@@ -4,7 +4,38 @@
 }
 
 body {
+    color: white;
     background-color: #0f0f0f;
     font-family: MochiyPopOne;
     font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {color: #e6722b;}
+
+a {
+    color: #e6722b;
+    text-decoration: underline;
+}
+a:hover {
+    color: #ec8f56;
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #e6722b;
+    margin: 16px 0px;
+}
+
+.card {
+    border-style: solid;
+    border-color: #1f1f1f;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    display: block
 }
